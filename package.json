@@ -1,0 +1,20 @@
+{
+  "name": "we-are-developers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {
+    "node-geocoder": "3.22.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^3.5.0",
+    "typescript": "^2.7.2",
+    "webpack": "^3.11.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "develop": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
