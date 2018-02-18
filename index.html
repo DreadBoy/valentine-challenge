@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>We Are Developers</title>
+  <title>We Are Developers</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
+        integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+        crossorigin=""/>
+  <style>
+    #map {
+      height: 600px;
+      width: 600px;
+    }
+  </style>
 </head>
 <body>
-	<label for="coordinates">Enter coordinates or place</label>	
-	<input id="coordinates"></input>
-	
+<label for="coordinates">Enter coordinates or place</label>
+<input id="coordinates" value="46.601123, 15.674318">
+<button id="show">Calculate</button>
+<div id="map"></div>
 <script type="text/javascript" src="index.js"></script>
 </body>
 </html>

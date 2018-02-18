@@ -4,12 +4,15 @@
   "description": "",
   "main": "",
   "dependencies": {
+    "@types/geodesy": "^1.2.0",
+    "@types/leaflet": "^1.2.5",
     "node-geocoder": "3.22.0"
   },
   "devDependencies": {
-    "ts-loader": "^3.5.0",
-    "typescript": "^2.7.2",
-    "webpack": "^3.11.0"
+    "@types/node": "9.4.6",
+    "ts-loader": "3.5.0",
+    "typescript": "2.7.2",
+    "webpack": "3.11.0"
   },
   "scripts": {
     "build": "webpack",
