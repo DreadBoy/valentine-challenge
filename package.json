@@ -10,13 +10,15 @@
   },
   "devDependencies": {
     "@types/node": "9.4.6",
+    "http-server": "0.11.1",
     "ts-loader": "3.5.0",
     "typescript": "2.7.2",
     "webpack": "3.11.0"
   },
   "scripts": {
     "build": "webpack",
-    "develop": "webpack --watch"
+    "develop": "webpack --watch",
+    "server": "http-server -c-1"
   },
   "author": "",
   "license": "ISC"
