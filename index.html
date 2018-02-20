@@ -13,9 +13,35 @@
   </style>
 </head>
 <body>
-<label for="coordinates">Enter coordinates or place</label>
-<input id="coordinates" value="46.601123, 15.674318">
-<button id="show">Calculate</button>
+<label for="coordinates">Vnesi koordinate ali izberi s seznama</label>
+<br>
+<select title="select-place">
+  <option value="46.601363, 15.674555" selected>Služba</option>
+  <option value="46.440400, 15.590309">Dom</option>
+  <option value="46.548866, 15.644286">Druga gimnazija Maribor</option>
+  <option value="46.559488, 15.639272">FERI</option>
+  <option value="81°50′35″N 59°14′22″E">Najbolj severna točna Evrope</option>
+  <option value="56°32′16″S 68°43′10″W">Najbolj južna točka Južne Amerike</option>
+</select>
+<br>
+<input id="coordinates" value="46.601363, 15.674555">
+<br>
+<br>
+<label for="distance">Vnesi razdaljo</label>
+<br>
+<input id="distance" type="number" value=500>
+<br>
+<br>
+<button id="show">Prikaži</button>
+<br>
+<br>
+<label for="show_radius">Prikaži radius</label>
+<input type="checkbox" id="show_radius">
+<br>
+<br>
+<a id="geojson-link" href="" target="_blank">Poglej na geojson.io</a>
+<br>
+<br>
 <div id="map"></div>
 <script type="text/javascript" src="index.js"></script>
 </body>
